@@ -1,9 +1,15 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { FaRegHeart } from "react-icons/fa";
 import { GiShoppingCart } from "react-icons/gi";
+
 const Navbar = () => {
+    const location = useLocation()
+    const {pathname} = location;
+  
   return (
-    <div className="navbar bg-[#9538E2] text-white lg:px-16 fixed left-0 right-0 top-0 shadow-lg">
+    <div className={`navbar lg:px-16
+    ${pathname === "/" ? 'bg-[#9538E2] text-white': 'bg-white text-black'}
+    fixed left-0 right-0 top-0`}>
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -22,7 +28,9 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-[#9538E2] rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className={`menu menu-sm dropdown-content
+        ${pathname === "/" ? 'bg-[#9538E2] text-white': 'bg-white text-black'}
+         rounded-box z-[1] mt-3 w-52 p-2 shadow`}>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/statistics'>Statistics</NavLink></li>
         <li><NavLink to='/dashboard'>Dashboard</NavLink></li>
