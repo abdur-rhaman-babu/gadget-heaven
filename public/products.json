@@ -1,0 +1,422 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "HeyxFome X1",
+    "product_image": "https://i.postimg.cc/ryr3hLg8/heyx-Fome-x1.jpg",
+    "category": "Phones",
+    "price": 599.99,
+    "description": "High-performance smartphone with a stunning display and powerful camera.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "6.1 inches"},
+      {"specification_name": "Battery Life", "specification_value": "18 hours"},
+      {"specification_name": "Storage", "specification_value": "128GB"}
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "TechPhone",
+      "color": "Black",
+      "dimensions": "5.8 x 2.8 x 0.3 inches"
+    }
+  },
+  {
+    "product_id": 2,
+    "product_title": "ZTE Z982 Max",
+    "product_image": "https://i.postimg.cc/MpP96stP/ZTE-Z982.jpg",
+    "category": "Phones",
+    "price": 699.99,
+    "description": "Feature-packed smartphone with a 108MP camera and extended battery life.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "6.8 inches"},
+      {"specification_name": "Battery Life", "specification_value": "24 hours"},
+      {"specification_name": "Storage", "specification_value": "256GB"}
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "MegaPhone",
+      "color": "Silver",
+      "dimensions": "6.5 x 3.0 x 0.3 inches"
+    }
+  },
+  {
+    "product_id": 3,
+    "product_title": "OnePlus Nord CE",
+    "product_image": "https://i.postimg.cc/Rh5srNGv/One-Plus-Nord-CE.jpg",
+    "category": "Phones",
+    "price": 299.99,
+    "description": "Affordable smartphone with essential features and solid battery life.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "5.5 inches"},
+      {"specification_name": "Battery Life", "specification_value": "15 hours"},
+      {"specification_name": "Storage", "specification_value": "64GB"}
+    ],
+    "availability": true,
+    "rating": 4.3,
+    "other_fields": {
+      "warranty": "6 months",
+      "brand": "ValueTech",
+      "color": "Blue",
+      "dimensions": "5.5 x 2.7 x 0.3 inches"
+    }
+  },
+  {
+    "product_id": 4,
+    "product_title": "Blackview A55 Pro",
+    "product_image": "https://i.postimg.cc/DZtD2Cfk/Blackview-A55-pro.jpg",
+    "category": "Phones",
+    "price": 899.99,
+    "description": "Top-tier smartphone with ultra-fast processing and immersive display.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "6.7 inches"},
+      {"specification_name": "Battery Life", "specification_value": "22 hours"},
+      {"specification_name": "Storage", "specification_value": "512GB"}
+    ],
+    "availability": false,
+    "rating": 4.8,
+    "other_fields": {
+      "warranty": "2 years",
+      "brand": "ProPhone",
+      "color": "Graphite",
+      "dimensions": "6.7 x 3.2 x 0.3 inches"
+    }
+  },
+  {
+    "product_id": 5,
+    "product_title": "Soyes Xs12Pro",
+    "product_image": "https://i.postimg.cc/65KjY4y0/Soyes-Xs12-Pro.jpg",
+    "category": "Phones",
+    "price": 399.99,
+    "description": "Compact smartphone with essential features in a pocket-friendly size.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "5.4 inches"},
+      {"specification_name": "Battery Life", "specification_value": "15 hours"},
+      {"specification_name": "Storage", "specification_value": "64GB"}
+    ],
+    "availability": true,
+    "rating": 4.2,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "MiniPhone",
+      "color": "Red",
+      "dimensions": "5.4 x 2.6 x 0.3 inches"
+    }
+  },
+  {
+    "product_id": 6,
+    "product_title": "ASUS VivoBook 14",
+    "product_image": "https://i.postimg.cc/mDcJWxsy/ASUS-Vivo-Book-14.jpg",
+    "category": "Computers",
+    "price": 799.99,
+    "description": "Lightweight laptop with powerful specs, perfect for on-the-go productivity.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "14 inches"},
+      {"specification_name": "Processor", "specification_value": "Intel i5"},
+      {"specification_name": "RAM", "specification_value": "8GB"}
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "TechLuxe",
+      "color": "Gray",
+      "weight": "3.2 lbs"
+    }
+  },
+  {
+    "product_id": 7,
+    "product_title": "ASUS ROG Zephyrus",
+    "product_image": "https://i.postimg.cc/FKC86r2K/ASUS-ROG-Zephyrus.jpg",
+    "category": "Computers",
+    "price": 1299.99,
+    "description": "High-performance gaming laptop with dedicated graphics and fast refresh rate.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "15.6 inches"},
+      {"specification_name": "Processor", "specification_value": "Intel i7"},
+      {"specification_name": "RAM", "specification_value": "16GB"}
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "other_fields": {
+      "warranty": "2 years",
+      "brand": "GameMaster",
+      "color": "Black",
+      "weight": "5.0 lbs"
+    }
+  },
+  {
+    "product_id": 8,
+    "product_title": "Lenovo Yoga Pro 7",
+    "product_image": "https://i.postimg.cc/rw8HFRTm/Lenovo-Yoga-Pro-7.jpg",
+    "category": "Computers",
+    "price": 999.99,
+    "description": "Slim and lightweight ultrabook with long battery life and high-resolution display.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "13.3 inches"},
+      {"specification_name": "Processor", "specification_value": "Intel i5"},
+      {"specification_name": "RAM", "specification_value": "8GB"}
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "UltraBook",
+      "color": "Silver",
+      "weight": "2.8 lbs"
+    }
+  },
+  {
+    "product_id": 9,
+    "product_title": "Convertible Laptop",
+    "product_image": "https://i.postimg.cc/vTfKDWD1/Convertivle-Laptop.jpg",
+    "category": "Computers",
+    "price": 1099.99,
+    "description": "Versatile 2-in-1 laptop with touchscreen and pen support.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "13.5 inches"},
+      {"specification_name": "Processor", "specification_value": "Intel i5"},
+      {"specification_name": "RAM", "specification_value": "8GB"}
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "FlexBook",
+      "color": "Gray",
+      "weight": "3.5 lbs"
+    }
+  },
+  {
+    "product_id": 10,
+    "product_title": "Asus ExpertBook B14",
+    "product_image": "https://i.postimg.cc/KY8CQkpV/Asus-Expert-Book-B14.jpg",
+    "category": "Computers",
+    "price": 499.99,
+    "description": "Affordable laptop with reliable performance for everyday use.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "15.6 inches"},
+      {"specification_name": "Processor", "specification_value": "Intel i3"},
+      {"specification_name": "RAM", "specification_value": "4GB"}
+    ],
+    "availability": true,
+    "rating": 4.2,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "BasicTech",
+      "color": "Black",
+      "weight": "4.0 lbs"
+    }
+  },
+  {
+    "product_id": 11,
+    "product_title": "Elite Smart Watch",
+    "product_image": "https://i.postimg.cc/ncf5gwwq/Elite-Smart-Watch.jpg",
+    "category": "Smart Watch",
+    "price": 249.99,
+    "description": "Stylish smartwatch with fitness tracking and health monitoring features.",
+    "specifications": [
+      {"specification_name": "Battery Life", "specification_value": "7 days"},
+      {"specification_name": "Display Size", "specification_value": "1.5 inches"},
+      {"specification_name": "Water Resistance", "specification_value": "5 ATM"}
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "SmartWear",
+      "color": "Silver",
+      "connectivity": "Bluetooth, WiFi"
+    }
+  },
+  {
+    "product_id": 12,
+    "product_title": "Military Activity Tracker",
+    "product_image": "https://i.postimg.cc/mrk67xtW/Military-Activity-Tracker.jpg",
+    "category": "Smart Watch",
+    "price": 199.99,
+    "description": "Sporty smartwatch with built-in GPS and heart rate monitoring.",
+    "specifications": [
+      {"specification_name": "Battery Life", "specification_value": "5 days"},
+      {"specification_name": "Display Size", "specification_value": "1.4 inches"},
+      {"specification_name": "Water Resistance", "specification_value": "3 ATM"}
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "SportyWatch",
+      "color": "Black",
+      "connectivity": "Bluetooth, GPS"
+    }
+  },
+  {
+    "product_id": 13,
+    "product_title": "Joyroom Jr FC2",
+    "product_image": "https://i.postimg.cc/DyQDTdtH/Joyroom-Jr-FC2.jpg",
+    "category": "Smart Watch",
+    "price": 149.99,
+    "description": "Classic smartwatch design with essential smart features.",
+    "specifications": [
+      {"specification_name": "Battery Life", "specification_value": "10 days"},
+      {"specification_name": "Display Size", "specification_value": "1.2 inches"},
+      {"specification_name": "Water Resistance", "specification_value": "IP68"}
+    ],
+    "availability": true,
+    "rating": 4.3,
+    "other_fields": {
+      "warranty": "6 months",
+      "brand": "ClassicTech",
+      "color": "Gold",
+      "connectivity": "Bluetooth"
+    }
+  },
+  {
+    "product_id": 14,
+    "product_title": "Mpow H7",
+    "product_image": "https://i.postimg.cc/3wqfBLv4/Mpow-H7.jpg",
+    "category": "Headphones",
+    "price": 149.99,
+    "description": "Comfortable over-ear headphones with active noise cancellation.",
+    "specifications": [
+      {"specification_name": "Battery Life", "specification_value": "30 hours"},
+      {"specification_name": "Bluetooth Version", "specification_value": "5.2"},
+      {"specification_name": "Noise Cancellation", "specification_value": "Active"}
+    ],
+    "availability": false,
+    "rating": 4.4,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "SoundTech",
+      "color": "Black",
+      "weight": "250 grams"
+    }
+  },
+  {
+    "product_id": 15,
+    "product_title": "SoundPEATS Life",
+    "product_image": "https://i.postimg.cc/7P0t3nYh/Sound-PEATS-Life.jpg",
+    "category": "Headphones",
+    "price": 99.99,
+    "description": "True wireless earbuds with active noise cancellation and rich sound quality.",
+    "specifications": [
+      {"specification_name": "Battery Life", "specification_value": "10 hours"},
+      {"specification_name": "Bluetooth Version", "specification_value": "5.1"},
+      {"specification_name": "Noise Cancellation", "specification_value": "Active"}
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "EarSound",
+      "color": "White",
+      "weight": "50 grams"
+    }
+  },
+  {
+    "product_id": 16,
+    "product_title": "Nokia X10",
+    "product_image": "https://i.postimg.cc/qRCbZ8sm/Nokia-X10.jpg",
+    "category": "Phones",
+    "price": 899.99,
+    "description": "Powerful smartphone with 8K video recording and super-fast charging.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "6.9 inches"},
+      {"specification_name": "Battery Life", "specification_value": "25 hours"},
+      {"specification_name": "Storage", "specification_value": "512GB"}
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "other_fields": {
+      "warranty": "2 years",
+      "brand": "MaxTech",
+      "color": "Blue",
+      "dimensions": "6.9 x 3.5 x 0.3 inches"
+    }
+  },
+  {
+    "product_id": 17,
+    "product_title": "vivo Y1s",
+    "product_image": "https://i.postimg.cc/jSd8rV6n/vivo-Y1s.jpg",
+    "category": "Phones",
+    "price": 649.99,
+    "description": "Affordable smartphone with excellent battery and high-quality camera.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "6.3 inches"},
+      {"specification_name": "Battery Life", "specification_value": "20 hours"},
+      {"specification_name": "Storage", "specification_value": "256GB"}
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "PrimePhone",
+      "color": "Green",
+      "dimensions": "6.3 x 3.0 x 0.3 inches"
+    }
+  },
+  {
+    "product_id": 18,
+    "product_title": "LG G Flex",
+    "product_image": "https://i.postimg.cc/13JjgRRK/LG-G-Flex.jpg",
+    "category": "Phones",
+    "price": 1499.99,
+    "description": "Foldable smartphone with a large display and top-end features.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "7.2 inches (unfolded)"},
+      {"specification_name": "Battery Life", "specification_value": "18 hours"},
+      {"specification_name": "Storage", "specification_value": "512GB"}
+    ],
+    "availability": false,
+    "rating": 4.8,
+    "other_fields": {
+      "warranty": "2 years",
+      "brand": "FlexiTech",
+      "color": "Black",
+      "dimensions": "7.2 x 3.4 x 0.3 inches"
+    }
+  },
+  {
+    "product_id": 19,
+    "product_title": "Smile Q8 Ultra",
+    "product_image": "https://i.postimg.cc/0jYt9PHD/Smile-Q8-Ultra.jpg",
+    "category": "Phones",
+    "price": 1099.99,
+    "description": "Ultra-high-performance smartphone with an immersive AMOLED display.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "6.5 inches"},
+      {"specification_name": "Battery Life", "specification_value": "22 hours"},
+      {"specification_name": "Storage", "specification_value": "512GB"}
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "other_fields": {
+      "warranty": "2 years",
+      "brand": "UltraPhone",
+      "color": "Silver",
+      "dimensions": "6.5 x 3.1 x 0.3 inches"
+    }
+  },
+  {
+    "product_id": 20,
+    "product_title": "Sumsung Galaxy A03",
+    "product_image": "https://i.postimg.cc/FsxPqFSQ/Sumsung-Galaxy-A03.jpg",
+    "category": "Phones",
+    "price": 399.99,
+    "description": "Basic smartphone for everyday use with essential features.",
+    "specifications": [
+      {"specification_name": "Screen Size", "specification_value": "5.7 inches"},
+      {"specification_name": "Battery Life", "specification_value": "12 hours"},
+      {"specification_name": "Storage", "specification_value": "64GB"}
+    ],
+    "availability": true,
+    "rating": 4.1,
+    "other_fields": {
+      "warranty": "6 months",
+      "brand": "BasicPhone",
+      "color": "White",
+      "dimensions": "5.7 x 2.8 x 0.3 inches"
+    }
+  }
+]
