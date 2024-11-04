@@ -1,19 +1,23 @@
  [
       {
         "id": 1,
-        "category": "Phones"
+        "category": "Phones",
+        "path": "/phones"
       },
       {
         "id": 2,
-        "category": "Computers"
+        "category": "Computers",
+        "path": "/computers"
       },
       {
         "id": 3,
-        "category": "Smart Watch"
+        "category": "Smart Watch",
+        "path": "/smartwatch"
       },
       {
         "id": 4,
-        "category": "Headphones"
+        "category": "Headphones",
+        "path": "/headphone"
       } 
     ]
   
