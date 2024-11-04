@@ -18,7 +18,17 @@
         "id": 4,
         "category": "Headphones",
         "path": "/headphone"
-      } 
+      }, 
+      {
+        "id": 5,
+        "category": "Power Banks",
+        "path": "/powerbank"
+      }, 
+      {
+        "id": 6,
+        "category": "Chargers",
+        "path": "/chargers"
+      }
     ]
   
   

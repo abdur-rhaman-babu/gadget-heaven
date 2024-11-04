@@ -277,7 +277,7 @@
     "product_title": "Mpow H7",
     "product_image": "https://i.postimg.cc/3wqfBLv4/Mpow-H7.jpg",
     "category": "Headphones",
-    "price": 149.99,
+    "price": 129.99,
     "description": "Comfortable over-ear headphones with active noise cancellation.",
     "specifications": [
       {"specification_name": "Battery Life", "specification_value": "30 hours"},
@@ -319,7 +319,7 @@
     "product_title": "Nokia X10",
     "product_image": "https://i.postimg.cc/qRCbZ8sm/Nokia-X10.jpg",
     "category": "Phones",
-    "price": 899.99,
+    "price": 1299.99,
     "description": "Powerful smartphone with 8K video recording and super-fast charging.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "6.9 inches"},
@@ -403,7 +403,7 @@
     "product_title": "Sumsung Galaxy A03",
     "product_image": "https://i.postimg.cc/FsxPqFSQ/Sumsung-Galaxy-A03.jpg",
     "category": "Phones",
-    "price": 399.99,
+    "price": 349.99,
     "description": "Basic smartphone for everyday use with essential features.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "5.7 inches"},
@@ -418,5 +418,131 @@
       "color": "White",
       "dimensions": "5.7 x 2.8 x 0.3 inches"
     }
-  }
+  },
+  {
+    "product_id": 21,
+    "product_title": "QuickCharge Fast Charger 18W",
+    "product_image": "https://i.postimg.cc/13LwFMs3/charger1.jpg",
+    "category": "Chargers",
+    "price": 19.99,
+    "description": "Compact 18W fast charger for rapid charging compatible devices.",
+    "specifications": [
+      {"specification_name": "Power Output", "specification_value": "18W"},
+      {"specification_name": "Connector Type", "specification_value": "USB-A"},
+      {"specification_name": "Compatibility", "specification_value": "Universal"}
+    ],
+    "availability": true,
+    "rating": 4.3,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "QuickCharge",
+      "color": "Black",
+      "dimensions": "1.8 x 1.5 x 1.2 inches"
+    }
+  },
+  {
+    "product_id": 22,
+    "product_title": "PowerTech 20W USB-C Charger",
+    "product_image": "https://i.postimg.cc/mrCMyMgN/charger2.jpg",
+    "category": "Chargers",
+    "price": 24.99,
+    "description": "20W USB-C fast charger for newer smartphones and tablets.",
+    "specifications": [
+      {"specification_name": "Power Output", "specification_value": "20W"},
+      {"specification_name": "Connector Type", "specification_value": "USB-C"},
+      {"specification_name": "Compatibility", "specification_value": "Universal"}
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "PowerTech",
+      "color": "White",
+      "dimensions": "2.0 x 1.7 x 1.4 inches"
+    }
+  },
+  {
+    "product_id": 23,
+    "product_title": "EcoCharge 10W Wireless Charger",
+    "product_image": "https://i.postimg.cc/qRrKbRtf/charger3.jpg",
+    "category": "Chargers",
+    "price": 29.99,
+    "description": "Eco-friendly wireless charger with 10W output for compatible devices.",
+    "specifications": [
+      {"specification_name": "Power Output", "specification_value": "10W"},
+      {"specification_name": "Connector Type", "specification_value": "Wireless"},
+      {"specification_name": "Compatibility", "specification_value": "Qi-enabled devices"}
+    ],
+    "availability": true,
+    "rating": 4.2,
+    "other_fields": {
+      "warranty": "6 months",
+      "brand": "EcoCharge",
+      "color": "Green",
+      "dimensions": "3.5 x 3.5 x 0.4 inches"
+    }
+  },
+  {
+    "product_id": 24,
+    "product_title": "ChargePlus 10,000mAh Power Bank",
+    "product_image": "https://i.postimg.cc/76N2pk75/power1.jpg",
+    "category": "Power Banks",
+    "price": 29.99,
+    "description": "10,000mAh portable charger for on-the-go power needs.",
+    "specifications": [
+      {"specification_name": "Capacity", "specification_value": "10,000mAh"},
+      {"specification_name": "Output Ports", "specification_value": "USB-A, USB-C"},
+      {"specification_name": "Compatibility", "specification_value": "Universal"}
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "ChargePlus",
+      "color": "Black",
+      "dimensions": "5.0 x 2.6 x 0.6 inches"
+    }
+  },
+  {
+    "product_id": 25,
+    "product_title": "EcoPower Solar 15,000mAh Power Bank",
+    "product_image": "https://i.postimg.cc/cC4nWbMX/power2.jpg",
+    "category": "Power Banks",
+    "price": 39.99,
+    "description": "Solar-charging 15,000mAh power bank for outdoor use.",
+    "specifications": [
+      {"specification_name": "Capacity", "specification_value": "15,000mAh"},
+      {"specification_name": "Output Ports", "specification_value": "USB-A, USB-C"},
+      {"specification_name": "Charging Method", "specification_value": "USB, Solar"}
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "EcoPower",
+      "color": "Green",
+      "dimensions": "6.0 x 3.0 x 0.7 inches"
+    }
+  },
+  {
+    "product_id": 26,
+    "product_title": "MaxCharge Ultra 20,000mAh Power Bank",
+    "product_image": "https://i.postimg.cc/1XCN3rvP/power3.jpg",
+    "category": "Power Banks",
+    "price": 49.99,
+    "description": "High-capacity 20,000mAh power bank for multiple device charging.",
+    "specifications": [
+      {"specification_name": "Capacity", "specification_value": "20,000mAh"},
+      {"specification_name": "Output Ports", "specification_value": "USB-A, USB-C"},
+      {"specification_name": "Compatibility", "specification_value": "Universal"}
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "other_fields": {
+      "warranty": "1 year",
+      "brand": "MaxCharge",
+      "color": "Silver",
+      "dimensions": "6.5 x 3.0 x 0.8 inches"
+    }
+  }  
 ]

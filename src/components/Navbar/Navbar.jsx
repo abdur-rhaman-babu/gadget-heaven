@@ -16,7 +16,9 @@ const Navbar = () => {
       pathname === "/categories/Headphones" ||
       pathname === "/categories/Computers" ||
       pathname === "/categories/Phones" ||
-      pathname === "/categories/Smart%20Watch"
+      pathname === "/categories/Smart%20Watch" ||
+      pathname === "/categories/Power%20Banks" ||
+      pathname === "/categories/Chargers"
         ? "bg-[#9538E2] text-white"
         : "bg-white text-black"
     }
@@ -48,7 +50,9 @@ const Navbar = () => {
             pathname === "/categories/Headphones" ||
             pathname === "/categories/Computers" ||
             pathname === "/categories/Phones" ||
-            pathname === "/categories/Smart%20Watch"
+            pathname === "/categories/Smart%20Watch" ||
+            pathname === "/categories/Power%20Banks" ||
+            pathname === "/categories/Chargers"
               ? "bg-[#9538E2] text-white"
               : "bg-white text-black"
           }

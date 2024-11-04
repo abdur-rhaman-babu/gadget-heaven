@@ -14,10 +14,10 @@ const Home = () => {
         </h1>
 
         <div className="lg:flex gap-5 justify-center">
-          <div>
+          <div className="lg:w-1/6">
               <Categories categories={categories}/>
           </div>
-          <div>
+          <div className="lg:w-4/5">
               <Outlet/>
           </div>
         </div>
