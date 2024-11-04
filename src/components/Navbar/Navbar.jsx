@@ -4,10 +4,8 @@ import { GiShoppingCart } from "react-icons/gi";
 
 const Navbar = () => {
   const location = useLocation();
-  console.log(location);
   const { pathname } = location;
-  console.log(pathname);
-
+  
   return (
     <div
       className={`navbar lg:px-16
@@ -20,7 +18,7 @@ const Navbar = () => {
       pathname === "/categories/Power%20Banks" ||
       pathname === "/categories/Chargers"
         ? "bg-[#9538E2] text-white"
-        : "bg-white text-black"
+        : "bg-white text-black shadow-lg"
     }
     fixed left-0 right-0 top-0`}
     >
