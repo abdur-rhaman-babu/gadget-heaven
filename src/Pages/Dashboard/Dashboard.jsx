@@ -39,12 +39,18 @@ const Dashboard = () => {
 
   return (
     <div className="-z-50">
+      <div className="text-center bg-[#9538e2] text-white py-5">
+        <h1 className="font-bold text-3xl">Dashboard</h1>
+        <p className="my-2 lg:px-48 px-5">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
+      </div>
       <div className="text-center">
         <Tabs>
+          <div className="bg-[#9538e2] text-white">
           <TabList>
             <Tab>Cart</Tab>
             <Tab>Wishlist</Tab>
           </TabList>
+          </div>
 
           <TabPanel>
             <div>
@@ -75,6 +81,7 @@ const Dashboard = () => {
             </div>
           </TabPanel>
           <TabPanel>
+          <p className="font-bold text-xl text-left">Wishlist</p>
             <div className="space-y-5 mt-5">
               {wishlist.map((cart) => (
                 <Wishlist
