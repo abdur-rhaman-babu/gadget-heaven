@@ -5,6 +5,17 @@ import Statistics from "../Pages/Statistics/Statistics";
 import Dashboard from "../Pages/Dashboard/Dashboard";
 import Products from './../Pages/Products/Products';
 import ProductDetails from "../components/ProductDetails/ProductDetails";
+import Support from "../components/FooterLink/Support";
+import Oreder from "../components/FooterLink/Oreder";
+import Delivery from "../components/FooterLink/Delivery";
+import Returns from "../components/FooterLink/Returns";
+import AboutUs from './../components/FooterLink/AboutUs';
+import Carreers from "../components/FooterLink/Carreers";
+import Contact from "../components/FooterLink/Contact";
+import Policy from './../components/FooterLink/Policy';
+import Service from './../components/FooterLink/Service';
+import Privacy from "../components/FooterLink/Privacy";
+
 
 const router = createBrowserRouter([
     {
@@ -43,7 +54,46 @@ const router = createBrowserRouter([
                 element:<ProductDetails/>,
                 loader: ()=> fetch('../products.json')
             },
-            
+            {
+                path:'/support',
+                element:<Support/>
+            },
+            {
+                path:'/order',
+                element:<Oreder/>
+            },
+            {
+                path:'/delivery',
+                element:<Delivery/>
+            },
+            {
+                path:'/return',
+                element:<Returns/>
+            },
+            {
+                path:'/aboutus',
+                element:<AboutUs/>
+            },
+            {
+                path:'/careers',
+                element:<Carreers/>
+            },
+            {
+                path:'/contact',
+                element:<Contact/>
+            },
+            {
+                path:'/service',
+                element:<Service/>
+            },
+            {
+                path:'/privacy',
+                element:<Privacy/>
+            },
+            {
+                path:'/policy',
+                element:<Policy/>
+            }
             
         ]
     }

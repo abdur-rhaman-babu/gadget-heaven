@@ -1,22 +1,26 @@
 import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
-import { createContext, useContext, useState } from "react";
+import { useContext, useState } from "react";
 import { TiShoppingCart } from "react-icons/ti";
 import { IoHeartOutline } from "react-icons/io5";
 import { FaRegTimesCircle } from "react-icons/fa";
-import { CartContext, CostContext, WishlisContext } from "../MainLayout/MainLayout";
+import {
+  CartContext,
+  CostContext,
+  WishlisContext,
+} from "../MainLayout/MainLayout";
+import { toast } from "react-toastify";
 
 const ProductDetails = () => {
-  const {cost,setCost} = useContext(CostContext)
-  const {carts,setCarts} = useContext(CartContext)
-  const {wishlist,setWishlist} = useContext(WishlisContext)
-  const [star, setStar] = useState('');
+  const { cost, setCost } = useContext(CostContext);
+  const { carts, setCarts } = useContext(CartContext);
+  const { wishlist, setWishlist } = useContext(WishlisContext);
+  const [star, setStar] = useState("");
   const { productId } = useParams();
   const id = parseInt(productId);
   const products = useLoaderData();
   const product = products.find((product) => product.product_id === id);
   const navigate = useNavigate();
-
 
   const {
     availability,
@@ -32,29 +36,32 @@ const ProductDetails = () => {
     setStar(rating);
   };
 
-  const handleAddToCart = (product,price) =>{
-    const isExsit = carts.find(cart=> cart.product_id === product.product_id)
-      if(isExsit){
-        alert('already added')
-      }else{
-        setCarts([...carts, product])
-        setCost(cost + parseFloat(price))
-        alert('successfully added')
-      }
-  }
-  const handleAddToWishlist = (product,price) =>{
-    const isExsit = wishlist.find(cart=> cart.product_id === product.product_id)
-      if(isExsit){
-        alert('already added')
-      }else{
-        setWishlist([...wishlist, product])
-        alert('successfully added')
-      }
-  }
-
+  const handleAddToCart = (product, price) => {
+    const isExsit = carts.find(
+      (cart) => cart.product_id === product.product_id
+    );
+    if (isExsit) {
+      toast.error("already added");
+    } else {
+      setCarts([...carts, product]);
+      setCost(cost + parseFloat(price));
+      toast.success("successfully added");
+    }
+  };
+  const handleAddToWishlist = (product, price) => {
+    const isExsit = wishlist.find(
+      (cart) => cart.product_id === product.product_id
+    );
+    if (isExsit) {
+      toast.error("already added");
+    } else {
+      setWishlist([...wishlist, product]);
+      toast.success("successfully added");
+    }
+  };
 
   return (
-      <div>
+    <div>
       <div className="bg-[#9538E2] py-5 text-white text-center rounded-b-lg">
         <h2 className="font-bold text-4xl my-3">Product Details</h2>
         <p className="mb-40 lg:px-56">
@@ -71,12 +78,12 @@ const ProductDetails = () => {
           />
         </div>
         <div>
-         <div className="flex justify-between gap-16">
-         <h3 className="font-bold text-2xl">{product_title}</h3>
-          <i onClick={()=> navigate(-1)} className="cursor-pointer">
+          <div className="flex justify-between gap-16">
+            <h3 className="font-bold text-2xl">{product_title}</h3>
+            <i onClick={() => navigate(-1)} className="cursor-pointer">
               <FaRegTimesCircle size={35} />
             </i>
-         </div>
+          </div>
           <p>Price: ${price}</p>
           <p className="border-[#309C08] my-2 inline-block border-2 py-2 px-4 rounded-full text-[#309C08] bg-[rgba(48, 156, 8, 0.1)]">
             {availability ? "In Stock" : "Out of stock"}
@@ -111,7 +118,6 @@ const ProductDetails = () => {
                 </li>
               </ol>
             </div>
-           
           </div>
           <div>
             <p className="font-bold">
@@ -128,11 +134,18 @@ const ProductDetails = () => {
             </div>
           </div>
           <div className="flex gap-5 my-4 ">
-            <button onClick={()=>handleAddToCart(product, price)} className="flex bg-[#9538E2] items-center rounded-full px-5 gap-2">
+            <button
+              onClick={() => handleAddToCart(product, price)}
+              className="flex bg-[#9538E2] items-center rounded-full px-5 gap-2"
+            >
               <p className="font-bold text-white">Add To Cart</p>
               <TiShoppingCart className="text-white " size={25} />
             </button>
-            <button onClick={()=>handleAddToWishlist(product)} className="border p-2 rounded-full">
+
+            <button
+              onClick={() => handleAddToWishlist(product)}
+              className="border p-2 rounded-full"
+            >
               <IoHeartOutline size={25} />
             </button>
           </div>

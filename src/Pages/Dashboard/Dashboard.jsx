@@ -9,6 +9,7 @@ import {
 import Cart from "../../components/Cart/Cart";
 import Wishlist from "../../components/Wishlist/Wishlist";
 import { GrSort } from "react-icons/gr";
+import { toast } from "react-toastify";
 
 const Dashboard = () => {
   const { carts, setCarts } = useContext(CartContext);
@@ -19,16 +20,17 @@ const Dashboard = () => {
     const remaining = carts.filter((cart) => cart.product_id !== id);
     setCarts(remaining)
     setCost(cost - parseFloat(price))
+    toast.success('Successfully deleted')
   };
 
   const handleRemoveFromWishlist = (id) => {
     const remaining = wishlist.filter((cart) => cart.product_id !== id);
     setWishlist(remaining);
+    toast.success('Successfully deleted')
   };
 
 
     const handleSortByPrice = () =>{
-      console.log('price')
       const sortByPrice = [...carts].sort((a,b)=> a.price - b.price)
       setCarts(sortByPrice)
     }

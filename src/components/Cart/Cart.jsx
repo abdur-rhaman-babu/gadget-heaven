@@ -1,5 +1,4 @@
 import { TiDeleteOutline } from "react-icons/ti";
-
 const Cart = ({ product, handleRemoveFromCart }) => {
   const { product_image, product_title, price, product_id, description } =
     product;
