@@ -15,12 +15,14 @@ import Contact from "../components/FooterLink/Contact";
 import Policy from './../components/FooterLink/Policy';
 import Service from './../components/FooterLink/Service';
 import Privacy from "../components/FooterLink/Privacy";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
 
 
 const router = createBrowserRouter([
     {
         path:'/',
         element:<MainLayout/>,
+        errorElement:<ErrorPage/>,
         children:[
             {
                 path:'/',
