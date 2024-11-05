@@ -4,7 +4,7 @@
     "product_title": "HeyxFome X1",
     "product_image": "https://i.postimg.cc/ryr3hLg8/heyx-Fome-x1.jpg",
     "category": "Phones",
-    "price": 599.99,
+    "price": 599.90,
     "description": "High-performance smartphone with a stunning display and powerful camera.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "6.1 inches"},
@@ -25,7 +25,7 @@
     "product_title": "ZTE Z982 Max",
     "product_image": "https://i.postimg.cc/MpP96stP/ZTE-Z982.jpg",
     "category": "Phones",
-    "price": 699.99,
+    "price": 709.99,
     "description": "Feature-packed smartphone with a 108MP camera and extended battery life.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "6.8 inches"},
@@ -46,7 +46,7 @@
     "product_title": "OnePlus Nord CE",
     "product_image": "https://i.postimg.cc/Rh5srNGv/One-Plus-Nord-CE.jpg",
     "category": "Phones",
-    "price": 299.99,
+    "price": 289.99,
     "description": "Affordable smartphone with essential features and solid battery life.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "5.5 inches"},
@@ -67,7 +67,7 @@
     "product_title": "Blackview A55 Pro",
     "product_image": "https://i.postimg.cc/DZtD2Cfk/Blackview-A55-pro.jpg",
     "category": "Phones",
-    "price": 899.99,
+    "price": 888.99,
     "description": "Top-tier smartphone with ultra-fast processing and immersive display.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "6.7 inches"},
@@ -88,7 +88,7 @@
     "product_title": "Soyes Xs12Pro",
     "product_image": "https://i.postimg.cc/65KjY4y0/Soyes-Xs12-Pro.jpg",
     "category": "Phones",
-    "price": 399.99,
+    "price": 389.89,
     "description": "Compact smartphone with essential features in a pocket-friendly size.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "5.4 inches"},
@@ -109,7 +109,7 @@
     "product_title": "ASUS VivoBook 14",
     "product_image": "https://i.postimg.cc/mDcJWxsy/ASUS-Vivo-Book-14.jpg",
     "category": "Computers",
-    "price": 799.99,
+    "price": 779.90,
     "description": "Lightweight laptop with powerful specs, perfect for on-the-go productivity.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "14 inches"},
@@ -130,7 +130,7 @@
     "product_title": "ASUS ROG Zephyrus",
     "product_image": "https://i.postimg.cc/FKC86r2K/ASUS-ROG-Zephyrus.jpg",
     "category": "Computers",
-    "price": 1299.99,
+    "price": 1319.49,
     "description": "High-performance gaming laptop with dedicated graphics and fast refresh rate.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "15.6 inches"},
@@ -151,7 +151,7 @@
     "product_title": "Lenovo Yoga Pro 7",
     "product_image": "https://i.postimg.cc/rw8HFRTm/Lenovo-Yoga-Pro-7.jpg",
     "category": "Computers",
-    "price": 999.99,
+    "price": 999.79,
     "description": "Slim and lightweight ultrabook with long battery life and high-resolution display.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "13.3 inches"},
@@ -172,7 +172,7 @@
     "product_title": "Convertible Laptop",
     "product_image": "https://i.postimg.cc/vTfKDWD1/Convertivle-Laptop.jpg",
     "category": "Computers",
-    "price": 1099.99,
+    "price": 1109.69,
     "description": "Versatile 2-in-1 laptop with touchscreen and pen support.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "13.5 inches"},
@@ -193,20 +193,20 @@
     "product_title": "Asus ExpertBook B14",
     "product_image": "https://i.postimg.cc/KY8CQkpV/Asus-Expert-Book-B14.jpg",
     "category": "Computers",
-    "price": 499.99,
+    "price": 509.39,
     "description": "Affordable laptop with reliable performance for everyday use.",
     "specifications": [
-      {"specification_name": "Screen Size", "specification_value": "15.6 inches"},
+      {"specification_name": "Screen Size", "specification_value": "14 inches"},
       {"specification_name": "Processor", "specification_value": "Intel i3"},
       {"specification_name": "RAM", "specification_value": "4GB"}
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.2,
     "other_fields": {
-      "warranty": "1 year",
-      "brand": "BasicTech",
-      "color": "Black",
-      "weight": "4.0 lbs"
+      "warranty": "6 months",
+      "brand": "SmartTech",
+      "color": "Blue",
+      "weight": "3.0 lbs"
     }
   },
   {
@@ -235,7 +235,7 @@
     "product_title": "Military Activity Tracker",
     "product_image": "https://i.postimg.cc/mrk67xtW/Military-Activity-Tracker.jpg",
     "category": "Smart Watch",
-    "price": 199.99,
+    "price": 156.99,
     "description": "Sporty smartwatch with built-in GPS and heart rate monitoring.",
     "specifications": [
       {"specification_name": "Battery Life", "specification_value": "5 days"},
@@ -256,7 +256,7 @@
     "product_title": "Joyroom Jr FC2",
     "product_image": "https://i.postimg.cc/DyQDTdtH/Joyroom-Jr-FC2.jpg",
     "category": "Smart Watch",
-    "price": 149.99,
+    "price": 145.99,
     "description": "Classic smartwatch design with essential smart features.",
     "specifications": [
       {"specification_name": "Battery Life", "specification_value": "10 days"},
@@ -277,7 +277,7 @@
     "product_title": "Mpow H7",
     "product_image": "https://i.postimg.cc/3wqfBLv4/Mpow-H7.jpg",
     "category": "Headphones",
-    "price": 129.99,
+    "price": 122.99,
     "description": "Comfortable over-ear headphones with active noise cancellation.",
     "specifications": [
       {"specification_name": "Battery Life", "specification_value": "30 hours"},
@@ -298,7 +298,7 @@
     "product_title": "SoundPEATS Life",
     "product_image": "https://i.postimg.cc/7P0t3nYh/Sound-PEATS-Life.jpg",
     "category": "Headphones",
-    "price": 99.99,
+    "price": 94.99,
     "description": "True wireless earbuds with active noise cancellation and rich sound quality.",
     "specifications": [
       {"specification_name": "Battery Life", "specification_value": "10 hours"},
@@ -319,7 +319,7 @@
     "product_title": "Nokia X10",
     "product_image": "https://i.postimg.cc/qRCbZ8sm/Nokia-X10.jpg",
     "category": "Phones",
-    "price": 1299.99,
+    "price": 1212.99,
     "description": "Powerful smartphone with 8K video recording and super-fast charging.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "6.9 inches"},
@@ -340,7 +340,7 @@
     "product_title": "vivo Y1s",
     "product_image": "https://i.postimg.cc/jSd8rV6n/vivo-Y1s.jpg",
     "category": "Phones",
-    "price": 649.99,
+    "price": 631.99,
     "description": "Affordable smartphone with excellent battery and high-quality camera.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "6.3 inches"},
@@ -361,7 +361,7 @@
     "product_title": "LG G Flex",
     "product_image": "https://i.postimg.cc/13JjgRRK/LG-G-Flex.jpg",
     "category": "Phones",
-    "price": 1499.99,
+    "price": 1455.99,
     "description": "Foldable smartphone with a large display and top-end features.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "7.2 inches (unfolded)"},
@@ -382,7 +382,7 @@
     "product_title": "Smile Q8 Ultra",
     "product_image": "https://i.postimg.cc/0jYt9PHD/Smile-Q8-Ultra.jpg",
     "category": "Phones",
-    "price": 1099.99,
+    "price": 1097.99,
     "description": "Ultra-high-performance smartphone with an immersive AMOLED display.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "6.5 inches"},
@@ -403,7 +403,7 @@
     "product_title": "Sumsung Galaxy A03",
     "product_image": "https://i.postimg.cc/FsxPqFSQ/Sumsung-Galaxy-A03.jpg",
     "category": "Phones",
-    "price": 349.99,
+    "price": 311.99,
     "description": "Basic smartphone for everyday use with essential features.",
     "specifications": [
       {"specification_name": "Screen Size", "specification_value": "5.7 inches"},
@@ -424,7 +424,7 @@
     "product_title": "QuickCharge Fast Charger 18W",
     "product_image": "https://i.postimg.cc/13LwFMs3/charger1.jpg",
     "category": "Chargers",
-    "price": 19.99,
+    "price": 22.99,
     "description": "Compact 18W fast charger for rapid charging compatible devices.",
     "specifications": [
       {"specification_name": "Power Output", "specification_value": "18W"},
@@ -445,7 +445,7 @@
     "product_title": "PowerTech 20W USB-C Charger",
     "product_image": "https://i.postimg.cc/mrCMyMgN/charger2.jpg",
     "category": "Chargers",
-    "price": 24.99,
+    "price": 27.99,
     "description": "20W USB-C fast charger for newer smartphones and tablets.",
     "specifications": [
       {"specification_name": "Power Output", "specification_value": "20W"},
@@ -487,7 +487,7 @@
     "product_title": "ChargePlus 10,000mAh Power Bank",
     "product_image": "https://i.postimg.cc/76N2pk75/power1.jpg",
     "category": "Power Banks",
-    "price": 29.99,
+    "price": 33.99,
     "description": "10,000mAh portable charger for on-the-go power needs.",
     "specifications": [
       {"specification_name": "Capacity", "specification_value": "10,000mAh"},
@@ -508,7 +508,7 @@
     "product_title": "EcoPower Solar 15,000mAh Power Bank",
     "product_image": "https://i.postimg.cc/cC4nWbMX/power2.jpg",
     "category": "Power Banks",
-    "price": 39.99,
+    "price": 27.99,
     "description": "Solar-charging 15,000mAh power bank for outdoor use.",
     "specifications": [
       {"specification_name": "Capacity", "specification_value": "15,000mAh"},
@@ -529,7 +529,7 @@
     "product_title": "MaxCharge Ultra 20,000mAh Power Bank",
     "product_image": "https://i.postimg.cc/1XCN3rvP/power3.jpg",
     "category": "Power Banks",
-    "price": 49.99,
+    "price": 50.99,
     "description": "High-capacity 20,000mAh power bank for multiple device charging.",
     "specifications": [
       {"specification_name": "Capacity", "specification_value": "20,000mAh"},

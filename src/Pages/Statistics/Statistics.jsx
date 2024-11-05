@@ -64,7 +64,7 @@ const Statistics = () => {
         <h1 className="font-bold text-3xl">Statistics</h1>
         <p className="my-2 lg:px-48 px-5">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
       </div>
-     
+      <h1 className="font-bold text-2xl my-5">Statistics</h1>
         <ComposedChart
           width={1000}
           height={500}
