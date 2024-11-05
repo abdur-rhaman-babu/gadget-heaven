@@ -32,13 +32,20 @@ const Dashboard = () => {
   };
 
   const handleSortByPrice = () => {
-    const sortByPrice = [...carts].sort((a, b) => a.price - b.price);
+    const sortByPrice = [...carts].sort((a, b) => b.price - a.price);
     setCarts(sortByPrice);
   };
 
-  const handleOpenModal = () => setIsOpenModal(true);
-  const handleCloseModal = () => setIsOpenModal(false);
-
+  const handleOpenModal = () => {
+    setIsOpenModal(true);
+    
+  }
+  const handleCloseModal = () => {
+    setIsOpenModal(false);
+    setCost(0)
+    setCarts([])
+  } 
+    
   return (
     <div className="-z-50">
       <div className="text-center bg-[#9538e2] text-white py-5">
@@ -69,7 +76,7 @@ const Dashboard = () => {
                 <p className="font-bold text-base">Total: {cost.toFixed(2)}</p>
                 <div className="modal-action">
                   <div className="bg-gray-200 py-2 rounded-full w-full">
-                    <Link to='/'><button onClick={handleCloseModal}>
+                    <Link to='/'><button className="w-full" onClick={handleCloseModal}>
                       Close
                     </button></Link>
                   </div>
@@ -93,7 +100,7 @@ const Dashboard = () => {
                       <GrSort />
                     </i>
                   </button>
-                  <button
+                  <button 
                     onClick={handleOpenModal}
                     className="bg-[#9538E2] py-2 px-4 rounded-full text-white"
                   >
