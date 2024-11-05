@@ -1,11 +1,14 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { FaRegHeart } from "react-icons/fa";
 import { GiShoppingCart } from "react-icons/gi";
+import { useContext } from "react";
+import { CartContext, WishlisContext } from "../MainLayout/MainLayout";
 
 const Navbar = () => {
   const location = useLocation();
   const { pathname } = location;
-  
+  const {carts} = useContext(CartContext)
+  const {wishlist} = useContext(WishlisContext)
   return (
     <div
       className={`navbar lg:px-16
@@ -20,7 +23,7 @@ const Navbar = () => {
         ? "bg-[#9538E2] text-white"
         : "bg-white text-black shadow-lg"
     }
-    fixed left-0 right-0 top-0`}
+    fixed left-0 right-0 top-0 z-50`}
     >
       <div className="navbar-start">
         <div className="dropdown">
@@ -83,11 +86,11 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end flex gap-4">
-        <i className="py-2 px-2 border rounded-full text-black bg-white">
-          <GiShoppingCart />
+        <i className="py-2 relative px-2 border rounded-full text-black bg-white">
+        <GiShoppingCart /> <p className="absolute -top-3 left-6 bg-black text-white px-2 rounded-full">{carts.length > 0 ? `${carts.length}` : ''}</p>
         </i>
-        <i className="py-2 px-2 border rounded-full text-black bg-white">
-          <FaRegHeart />
+        <i className="py-2 relative px-2 border rounded-full text-black bg-white">
+          <FaRegHeart /> <p className="absolute -top-3 left-6 bg-black text-white px-2 rounded-full">{wishlist.length > 0 ? `${wishlist.length}` : ''}</p>
         </i>
       </div>
     </div>

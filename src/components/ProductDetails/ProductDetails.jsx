@@ -1,16 +1,22 @@
 import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
-import { useState } from "react";
+import { createContext, useContext, useState } from "react";
 import { TiShoppingCart } from "react-icons/ti";
 import { IoHeartOutline } from "react-icons/io5";
 import { FaRegTimesCircle } from "react-icons/fa";
+import { CartContext, CostContext, WishlisContext } from "../MainLayout/MainLayout";
+
 const ProductDetails = () => {
-  const [star, setStar] = useState("");
+  const {cost,setCost} = useContext(CostContext)
+  const {carts,setCarts} = useContext(CartContext)
+  const {wishlist,setWishlist} = useContext(WishlisContext)
+  const [star, setStar] = useState('');
   const { productId } = useParams();
   const id = parseInt(productId);
   const products = useLoaderData();
   const product = products.find((product) => product.product_id === id);
   const navigate = useNavigate();
+
 
   const {
     availability,
@@ -25,8 +31,30 @@ const ProductDetails = () => {
   const ratingChanged = (rating) => {
     setStar(rating);
   };
+
+  const handleAddToCart = (product,price) =>{
+    const isExsit = carts.find(cart=> cart.product_id === product.product_id)
+      if(isExsit){
+        alert('already added')
+      }else{
+        setCarts([...carts, product])
+        setCost(cost + parseFloat(price))
+        alert('successfully added')
+      }
+  }
+  const handleAddToWishlist = (product,price) =>{
+    const isExsit = wishlist.find(cart=> cart.product_id === product.product_id)
+      if(isExsit){
+        alert('already added')
+      }else{
+        setWishlist([...wishlist, product])
+        alert('successfully added')
+      }
+  }
+
+
   return (
-    <div>
+      <div>
       <div className="bg-[#9538E2] py-5 text-white text-center rounded-b-lg">
         <h2 className="font-bold text-4xl my-3">Product Details</h2>
         <p className="mb-40 lg:px-56">
@@ -100,11 +128,11 @@ const ProductDetails = () => {
             </div>
           </div>
           <div className="flex gap-5 my-4 ">
-            <button className="flex bg-[#9538E2] items-center rounded-full px-5 gap-2">
+            <button onClick={()=>handleAddToCart(product, price)} className="flex bg-[#9538E2] items-center rounded-full px-5 gap-2">
               <p className="font-bold text-white">Add To Cart</p>
               <TiShoppingCart className="text-white " size={25} />
             </button>
-            <button className="border p-2 rounded-full">
+            <button onClick={()=>handleAddToWishlist(product)} className="border p-2 rounded-full">
               <IoHeartOutline size={25} />
             </button>
           </div>
