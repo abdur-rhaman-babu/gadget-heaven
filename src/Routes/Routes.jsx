@@ -13,9 +13,9 @@ import AboutUs from './../components/FooterLink/AboutUs';
 import Carreers from "../components/FooterLink/Carreers";
 import Contact from "../components/FooterLink/Contact";
 import Policy from './../components/FooterLink/Policy';
-import Service from './../components/FooterLink/Service';
 import Privacy from "../components/FooterLink/Privacy";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
+import Service from "../components/Service/Service";
 
 
 const router = createBrowserRouter([

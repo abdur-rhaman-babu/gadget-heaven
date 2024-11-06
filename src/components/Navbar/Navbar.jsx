@@ -11,7 +11,7 @@ const Navbar = () => {
   const {wishlist} = useContext(WishlisContext)
   return (
     <div
-      className={`navbar lg:px-16
+      className={`navbar lg:px-16 
     ${
       pathname === "/" ||
       pathname === "/categories/Headphones" ||
@@ -68,6 +68,9 @@ const Navbar = () => {
             <li>
               <NavLink to="/dashboard">Dashboard</NavLink>
             </li>
+            <li>
+              <NavLink to="/service">Service</NavLink>
+            </li>
           </ul>
         </div>
         <Link className="font-bold md:text-2xl">Gadget Heaven</Link>
@@ -83,6 +86,9 @@ const Navbar = () => {
           <li>
             <NavLink to="/dashboard">Dashboard</NavLink>
           </li>
+          <li>
+              <NavLink to="/service">Service</NavLink>
+            </li>
         </ul>
       </div>
       <div className="navbar-end flex gap-4">

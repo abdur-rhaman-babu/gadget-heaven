@@ -16,7 +16,7 @@ const MainLayout = () => {
       <WishlisContext.Provider value={{ wishlist, setWishlist }}>
         <CostContext.Provider value={{ cost, setCost }}>
           <div>
-            <div className="h-20">
+            <div className="h-[70px]">
               <Navbar />
             </div>
             {navigation.state === "loading" ? (

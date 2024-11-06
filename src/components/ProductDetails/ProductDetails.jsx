@@ -36,24 +36,28 @@ const ProductDetails = () => {
     setStar(rating);
   };
 
+  const isExsits = carts.find(
+    (cart) => cart.product_id === product.product_id
+  );
   const handleAddToCart = (product, price) => {
-    const isExsit = carts.find(
-      (cart) => cart.product_id === product.product_id
-    );
-    if (isExsit) {
+
+    if (isExsits) {
       toast.error("already added");
+      disable = true
     } else {
       setCarts([...carts, product]);
       setCost(cost + parseFloat(price));
       toast.success("successfully added");
     }
   };
+
+  const isExsit = wishlist.find(
+    (cart) => cart.product_id === product.product_id
+  );
   const handleAddToWishlist = (product, price) => {
-    const isExsit = wishlist.find(
-      (cart) => cart.product_id === product.product_id
-    );
     if (isExsit) {
       toast.error("already added");
+      disable = true
     } else {
       setWishlist([...wishlist, product]);
       toast.success("successfully added");
@@ -85,7 +89,9 @@ const ProductDetails = () => {
             </i>
           </div>
           <p>Price: ${price}</p>
-          <p className="border-[#309C08] my-2 inline-block border-2 py-2 px-4 rounded-full text-[#309C08] bg-[rgba(48, 156, 8, 0.1)]">
+          <p className={`my-2 inline-block 
+            ${availability ? 'border-[#309C08] text-[#309C08]' :'text-red-700 border-red-700'}
+            border-2 py-2 px-4 rounded-full`}>
             {availability ? "In Stock" : "Out of stock"}
           </p>
           <p>{description}</p>
@@ -134,17 +140,21 @@ const ProductDetails = () => {
             </div>
           </div>
           <div className="flex gap-5 my-4 ">
-            <button
+            <button disabled = {isExsits}
               onClick={() => handleAddToCart(product, price)}
-              className="flex bg-[#9538E2] items-center rounded-full px-5 gap-2"
+              className={`flex bg-[#9538E2]
+                ${isExsits && 'bg-slate-300'}
+                items-center rounded-full px-5 gap-2`}
             >
               <p className="font-bold text-white">Add To Cart</p>
               <TiShoppingCart className="text-white " size={25} />
             </button>
 
-            <button
+            <button disabled = {isExsit}
               onClick={() => handleAddToWishlist(product)}
-              className="border p-2 rounded-full"
+              className={`border
+                ${isExsit && 'bg-slate-100 text-gray-300'}
+                p-2 rounded-full`}
             >
               <IoHeartOutline size={25} />
             </button>

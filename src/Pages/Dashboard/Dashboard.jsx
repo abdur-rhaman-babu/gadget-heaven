@@ -100,9 +100,11 @@ const Dashboard = () => {
                       <GrSort />
                     </i>
                   </button>
-                  <button 
+                  <button disabled = {carts.length === 0}
                     onClick={handleOpenModal}
-                    className="bg-[#9538E2] py-2 px-4 rounded-full text-white"
+                    className={`bg-[#9538E2] py-2 px-4 
+                      ${carts.length === 0 && 'bg-gray-300'}
+                      rounded-full text-white`}
                   >
                     Purchase
                   </button>
