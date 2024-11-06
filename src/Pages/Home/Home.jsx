@@ -1,12 +1,14 @@
 import { NavLink, Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../../components/Banner/Banner";
 import Categories from "../Categories/Categories";
+import Dynamictitle from "../../components/DynamicTitle/Dynamictitle";
 
 const Home = () => {
   const categories = useLoaderData();
 
   return (
     <div>
+      <Dynamictitle title = 'home'/>
       <Banner />
       <div className="text-center">
         <h1 className="text-4xl my-5 font-bold text-[#0B0B0B]">

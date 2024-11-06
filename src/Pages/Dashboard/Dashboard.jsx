@@ -12,6 +12,7 @@ import { GrSort } from "react-icons/gr";
 import { toast } from "react-toastify";
 import modalImg from '../../assets/image/Group.png'
 import { Link } from "react-router-dom";
+import Dynamictitle from './../../components/DynamicTitle/Dynamictitle';
 const Dashboard = () => {
   const { carts, setCarts } = useContext(CartContext);
   const { wishlist, setWishlist } = useContext(WishlisContext);
@@ -135,6 +136,7 @@ const Dashboard = () => {
           </TabPanel>
         </Tabs>
       </div>
+      <Dynamictitle title='dashboard'/>
     </div>
   );
 };

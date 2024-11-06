@@ -10,6 +10,7 @@ import {
   WishlisContext,
 } from "../MainLayout/MainLayout";
 import { toast } from "react-toastify";
+import Dynamictitle from "../DynamicTitle/Dynamictitle";
 
 const ProductDetails = () => {
   const { cost, setCost } = useContext(CostContext);
@@ -66,6 +67,7 @@ const ProductDetails = () => {
 
   return (
     <div>
+      <Dynamictitle title='product-details'/>
       <div className="bg-[#9538E2] py-5 text-white text-center rounded-b-lg">
         <h2 className="font-bold text-4xl my-3">Product Details</h2>
         <p className="mb-40 lg:px-56">

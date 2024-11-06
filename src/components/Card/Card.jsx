@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 const Card = ({ product }) => {
   const { product_image, product_title, price, product_id } = product;
   // console.log(product);

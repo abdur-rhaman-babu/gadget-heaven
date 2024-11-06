@@ -1,4 +1,5 @@
 import { TiDeleteOutline } from "react-icons/ti";
+import Dynamictitle from "../DynamicTitle/Dynamictitle";
 const Cart = ({ product, handleRemoveFromCart }) => {
   const { product_image, product_title, price, product_id, description } =
     product;
@@ -21,6 +22,7 @@ const Cart = ({ product, handleRemoveFromCart }) => {
       >
         <TiDeleteOutline size={25} />
       </button>
+      <Dynamictitle title='dashboard-cart'/>
     </div>
   );
 };

@@ -1,4 +1,6 @@
 import { useLoaderData } from 'react-router-dom';
+
+import Dynamictitle from './../../components/DynamicTitle/Dynamictitle';
 import {
   ComposedChart,
   Line,
@@ -17,6 +19,7 @@ const Statistics = () => {
  
   return (
     <div>
+      <Dynamictitle title = 'statistics'/>
      <div className="text-center bg-[#9538e2] text-white py-5">
         <h1 className="font-bold text-3xl">Statistics</h1>
         <p className="my-2 lg:px-48 px-5">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>

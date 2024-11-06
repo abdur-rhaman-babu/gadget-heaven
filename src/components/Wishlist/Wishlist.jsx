@@ -1,4 +1,5 @@
 import { TiDeleteOutline, TiShoppingCart } from "react-icons/ti";
+import Dynamictitle from "../DynamicTitle/Dynamictitle";
 
 const Wishlist = ({ product, handleRemoveFromWishlist }) => {
   const { product_image, product_title, price, product_id, description } =
@@ -27,6 +28,7 @@ const Wishlist = ({ product, handleRemoveFromWishlist }) => {
       >
         <TiDeleteOutline size={25} />
       </button>
+      <Dynamictitle title='dashboard-wishlish'/>
     </div>
   );
 };
