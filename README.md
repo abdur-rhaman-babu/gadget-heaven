@@ -1,8 +1,24 @@
-# React + Vite
+**Live Website Link:** 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Requirment Document Link: 
+**https://drive.google.com/file/d/1JnfYucAaRvPcTh4wMFnsojWxFKaUvc1U/view?usp=sharing 
+**
 
-Currently, two official plugins are available:
+### React Fundamental Concept:
+1. Props driling, 
+2. useState hook, 
+3. useEffect hook, 
+4. component, 
+5. jsx, 
+6. conditional rendering, 
+7. context api, 
+8. react router
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I have used  **context API** for managing data 
+
+## Five feature of my website
+1. I have shown 6 types of 26 data on my home page.
+2. Every single data have image, title, price, and show details button when user click show details button he can see everything in details.
+3. There are two different button named add cart, and wishlist if you click add add cart button one data will be added on the dashboard pages.
+4. You also remove any data from the dashboard pages.
+5. I have used very nice toast message when data will be added, removed and etc.

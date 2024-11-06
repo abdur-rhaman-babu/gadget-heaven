@@ -92,6 +92,7 @@ const Dashboard = () => {
                 <p className="font-bold text-xl">Cart</p>
                 <div className="md:flex items-center gap-5">
                   <p className="font-bold text-base">Total cost: {cost.toFixed(2)}</p>
+                  <div className="flex gap-5 justify-center mt-5 md:mt-0">
                   <button
                     onClick={handleSortByPrice}
                     className="flex items-center gap-2 px-5 py-2 rounded-full font-semibold border border-[#9538e2] text-[#9538e2]"
@@ -109,6 +110,7 @@ const Dashboard = () => {
                   >
                     Purchase
                   </button>
+                  </div>
                 </div>
               </div>
               <div className="space-y-5 my-5">
