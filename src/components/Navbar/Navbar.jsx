@@ -98,7 +98,7 @@ const Navbar = () => {
         </i>
        
         <i className="py-2 relative px-2 border rounded-full text-black bg-white">
-          <Link to='/dashboard'><FaRegHeart /></Link> <p className="absolute -top-3 left-6 bg-black text-white px-2 rounded-full">{wishlist.length > 0 ? `${wishlist.length}` : ''}</p>
+          <FaRegHeart /> <p className="absolute -top-3 left-6 bg-black text-white px-2 rounded-full">{wishlist.length > 0 ? `${wishlist.length}` : ''}</p>
         </i>
       </div>
     </div>

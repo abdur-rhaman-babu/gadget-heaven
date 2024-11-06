@@ -9,9 +9,9 @@ const Banner = () => {
         Explore the latest gadgets that will take your experience to the next
         level. From smart devices to the coolest accessories, we have it all!
       </p>
-      <NavLink to='/dashboard'><button className="text-xl mb-48 font-bold bg-white text-[#9538E2] py-3 px-5 rounded-full">Shop Now</button></NavLink>
+      <NavLink to='/dashboard'><button className="text-xl mb-10 lg:mb-48 font-bold bg-white text-[#9538E2] py-3 px-5 rounded-full">Shop Now</button></NavLink>
     </div>
-      <img className='h-[400px] w-[700px] mx-auto -mt-36 mb-10 rounded-2xl bg-[rgba(255,255,255,0.3)] p-4 border border-white' src={banner} alt="" />
+      <img className='h-[400px] w-[700px] hidden lg:block mx-auto -mt-36 mb-10 rounded-2xl bg-[rgba(255,255,255,0.3)] p-4 border border-white' src={banner} alt="" />
    </div>
   );
 };

@@ -5,9 +5,9 @@ const Cart = ({ product, handleRemoveFromCart }) => {
     product;
 
   return (
-    <div className=" flex gap-5 border p-5 rounded-lg text-left bg-gray-100 relative">
+    <div className="md:flex gap-5 border p-5 rounded-lg text-left bg-gray-100 relative">
       <img
-        className=" bg-white px-16 py-10 rounded-lg h-48 w-2/6"
+        className=" bg-white lg:px-16 lg:py-10 rounded-lg h-48 w-full lg:w-2/6"
         src={product_image}
         alt=""
       />

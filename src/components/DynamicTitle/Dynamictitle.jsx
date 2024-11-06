@@ -4,7 +4,7 @@ const Dynamictitle = ({title}) => {
     return (
         <div>
             <Helmet>
-                <title>{title ? `${title}/Gadget Heaven`: 'Gadget Heaven'}</title>
+                <title>{title ? `${title} | Gadget Heaven`: 'Gadget Heaven'}</title>
             </Helmet>
         </div>
     );

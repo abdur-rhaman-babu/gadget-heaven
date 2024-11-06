@@ -18,10 +18,10 @@ const ProductDetails = () => {
   const { wishlist, setWishlist } = useContext(WishlisContext);
   const [star, setStar] = useState("");
   const { productId } = useParams();
+  const navigate = useNavigate();
   const id = parseInt(productId);
   const products = useLoaderData();
   const product = products.find((product) => product.product_id === id);
-  const navigate = useNavigate();
 
   const {
     availability,
@@ -48,7 +48,7 @@ const ProductDetails = () => {
     } else {
       setCarts([...carts, product]);
       setCost(cost + parseFloat(price));
-      toast.success("successfully added");
+      toast.success("successfully added to the cart");
     }
   };
 
@@ -61,7 +61,7 @@ const ProductDetails = () => {
       disable = true
     } else {
       setWishlist([...wishlist, product]);
-      toast.success("successfully added");
+      toast.success("successfully added to the wishlist");
     }
   };
 
