@@ -9,8 +9,6 @@ Gadget Heaven is a feature-rich e-commerce platform offering a wide range of tec
 ■ React.js – For building a fast, interactive, and dynamic user interface
 ■ Tailwind CSS – For efficient, customizable, and responsive styling
 
-```sh
-npx create-react-app my-app
 
 ## Key Features of Gadget Heaven
 ■ Wide Product Selection – Shop from a variety of gadgets, including laptops, smartphones, smartwatches, headphones, and accessories.
@@ -25,7 +23,9 @@ npx create-react-app my-app
 
 # to run the project locally.
 
-Use `git status` to check the status of your Git repository.
+
+```sh
+**npx create-react-app my-app**
 
 
 ## Live Website Link:
