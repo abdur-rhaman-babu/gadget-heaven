@@ -21,11 +21,9 @@ Gadget Heaven is a feature-rich e-commerce platform offering a wide range of tec
 
 ■ Customer Reviews & Ratings – Read real customer feedback to make informed purchase decisions.
 
-# to run the project locally.
-
-
+#### to run the project locally.
 ```sh
-***npx create-react-app my-app***
+npx create-react-app my-app
 
 
 ## Live Website Link:
