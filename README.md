@@ -26,7 +26,7 @@ Gadget Heaven is a feature-rich e-commerce platform offering a wide range of tec
 <pre> cd (project folder) </pre>
 <pre> npm install </pre>
 <pre> npm run dev </pre>
-
+ 
 
 ## Live Website Link:
 **https://unique-puffpuff-6e3ebe.netlify.app/**
