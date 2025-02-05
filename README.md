@@ -9,7 +9,7 @@ Gadget Heaven is a feature-rich e-commerce platform offering a wide range of tec
 ■ React.js – For building a fast, interactive, and dynamic user interface
 ■ Tailwind CSS – For efficient, customizable, and responsive styling
 
-
+<pre> ```sh npm install package-name ``` </pre>
 
 ## Key Features of Gadget Heaven
 ■ Wide Product Selection – Shop from a variety of gadgets, including laptops, smartphones, smartwatches, headphones, and accessories.
