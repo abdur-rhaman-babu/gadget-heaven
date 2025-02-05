@@ -22,7 +22,10 @@ Gadget Heaven is a feature-rich e-commerce platform offering a wide range of tec
 ■ Customer Reviews & Ratings – Read real customer feedback to make informed purchase decisions.
 
 ## to run the project locally.
-<pre> git clone  </pre>
+<pre> git clone https://github.com/abdur-rhaman-babu/gadget-heaven.git </pre>
+<pre> cd (project folder) </pre>
+<pre> npm install </pre>
+<pre> npm run dev </pre>
 
 
 ## Live Website Link:
