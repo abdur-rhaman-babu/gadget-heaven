@@ -25,7 +25,7 @@ Gadget Heaven is a feature-rich e-commerce platform offering a wide range of tec
 
 
 ```sh
-**npx create-react-app my-app**
+***npx create-react-app my-app***
 
 
 ## Live Website Link:
